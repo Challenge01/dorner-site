@@ -2,10 +2,11 @@ module.exports = {
     purge: ['./src/**/*.html', './src/**/*.svelte', './src/**/*.js'],
     darkMode: false, // or 'media' or 'class'
     theme: {
-        extend: {},
+      extend: {},
     },
     variants: {
-        extend: {},
+      extend: {},
     },
-    plugins: [],
-};
+    plugins: [require('@tailwindcss/forms')],
+  }
+  
